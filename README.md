@@ -4,7 +4,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
 
-- 🖥️ Deep background in Windows Cloud / Server administration, PowerShell at scale, and endpoint management (Intune)
+- 🖥️ Deep background in Windows Cloud / Server administration via IaC, PowerShell at scale, and endpoint management (Intune)
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex)
 
