@@ -6,12 +6,12 @@ My name is Miren. I work on device automation, building tools that sit at the in
 
 - 🖥️ Strong background in Windows Cloud / Server administration, PowerShell at scale, and endpoint management (Intune)
   
-- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline (PowerShell, Intune, AWS, GPT, Webex)
+- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex)
 
 - 🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects
 
-- 🤝 Interested in AI-driven QA: LLM-judgment-based test assessment beyond deterministic checks
-
+- 🤝 Interested in AI-assisted tooling for developer/operator workflows — using LLMs for judgment-based decisions beyond static scripts
+  
 ## Connect with me
 [![linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
 [![github](https://img.shields.io/badge/github-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
