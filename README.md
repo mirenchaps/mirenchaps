@@ -26,3 +26,4 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 ![lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
 ![snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white)
 ![git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![grafana](https://img.shields.io/badge/Grafana-FF9900?style=for-the-badge&logo=grafana&logoColor=white)
