@@ -8,7 +8,7 @@ My name is Miren. I work on device automation, building tools that sit at the in
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline (PowerShell, Intune, AWS, GPT, Webex)
 
-🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects
+- 🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects
 
 - 🤝 Interested in AI-driven QA: LLM-judgment-based test assessment beyond deterministic checks
 
