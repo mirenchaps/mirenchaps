@@ -1,10 +1,10 @@
-## Hi there 👋
+## Hello there 👋
 
-My name is Miren. I work on device automation, building tools that sit at the intersection of infrastructure, scripting, and AI.
+My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience across Windows Server, cloud infrastructure, and automation.
 
-- 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering.
+- 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
 
-- 🖥️ Strong background in Windows Cloud / Server administration, PowerShell at scale, and endpoint management (Intune)
+- 🖥️ Deep background in Windows Cloud / Server administration, PowerShell at scale, and endpoint management (Intune)
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex)
 
@@ -14,7 +14,7 @@ My name is Miren. I work on device automation, building tools that sit at the in
   
 ## Connect with me
 [![linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
-[![github](https://img.shields.io/badge/github-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![github](https://img.shields.io/badge/github-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirenchaps)
 
 ## My tech stack
 
