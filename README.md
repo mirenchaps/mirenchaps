@@ -6,7 +6,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 🖥️ Deep background in Windows Cloud / Server administration via IaC, PowerShell at scale, and endpoint management (Intune)
   
-- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex)
+- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python)
 
 - 🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects
 
