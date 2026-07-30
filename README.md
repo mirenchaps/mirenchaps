@@ -4,13 +4,13 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
 
-- 🖥️ Deep background in Windows Cloud / Server administration via IaC, PowerShell at scale, and endpoint management (Intune)
+- 🖥️ Deep background in Windows Cloud and Server administration via IaC, PowerShell, virtualisation, and endpoint management (Intune) at scale.
   
-- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python)
+- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
 
-- 🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects
+- 🌱 Deepening my mastery of Terraform (HCL) — state management, remote backends, and end-to-end AWS infrastructure-as-code projects.
 
-- 🤝 Interested in AI-assisted tooling for developer/operator workflows — using LLMs for judgment-based decisions beyond static scripts
+- 🤝 Interested in AI-assisted tooling for developer/operator workflows — using LLMs for judgment-based decisions beyond static scripts.
   
 ## Connect with me
 [![linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
