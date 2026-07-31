@@ -4,7 +4,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
 
-- 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Static IPs, SSH key-only auth, UFW hardening. Observability via Prometheus, Grafana Alloy, and Grafana Cloud.
+- 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Observability via Prometheus, Grafana Alloy, and Grafana Cloud.
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
 
