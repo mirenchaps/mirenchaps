@@ -6,7 +6,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Observability via Prometheus, Grafana Alloy, and Grafana Cloud.
   
-- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
+- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
 
 - 🏗️ Building a full CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Managed via Terraform, observed through Prometheus + Grafana Cloud.
 
