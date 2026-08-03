@@ -4,20 +4,20 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
 
-- 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Observability via Prometheus, Grafana Alloy, and Grafana Cloud.
+- 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Observability via Prometheus, Grafana Alloy, and Grafana Cloud. Remote access via Tailscale.
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
 
-- 🏗️ Building a full CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Managed via Terraform, observed through Prometheus + Grafana Cloud.
+- 🏗️ Built a reusable CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Deployed via kubectl, observed through Prometheus + Grafana Cloud.
 
-- 🤝 Interested in AI-assisted tooling for developer/operator workflows — including an MCP server that exposes home lab infrastructure to AI assistants for real-time querying and control.
+- 🤝 Built and deployed an MCP server to k3s — 11 tools covering Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. Accessible remotely via Tailscale. Focused on AI-assisted tooling where LLMs make judgment-based decisions, not just run static scripts.
   
 ## Featured Projects
 
 | Project | Description |
 | --- | --- |
-| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server + Prometheus exporter for home lab — exposes infrastructure to AI assistants for real-time querying |
-| [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD library: GitHub Actions workflows, Jenkins shared library steps, and Terraform Docker modules |
+| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server deployed to k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control |
+| [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD library: GitHub Actions workflows, Jenkins shared library steps, and Terraform modules — evolved from Docker-based deployments to Kubernetes as the platform grew |
 | [JiraBot](https://github.com/mirenchaps/jirabot-dx) | Event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and LLM triage (Python) |
 | [Device Validation Pipeline](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, GPT, Webex |
 
