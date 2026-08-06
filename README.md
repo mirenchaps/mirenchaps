@@ -11,7 +11,9 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 - 🏗️ Built a reusable CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Deployed via kubectl, observed through Prometheus + Grafana Cloud.
 
 - 🤝 Built and deployed an MCP server to k3s — 11 tools covering Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. Accessible remotely via Tailscale. Focused on AI-assisted tooling where LLMs make judgment-based decisions, not just run static scripts.
-  
+ 
+- 🌱 **Currently exploring:** Pulumi and Terragrunt (extending my Terraform work), Artifactory, and deeper Kubernetes internals beyond my k3s home lab setup.
+
 ## Featured Projects
 
 | Project | Description |
@@ -23,6 +25,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 ## Connect with me
 [![linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
+[![linkedin](https://img.shields.io/badge/Open_to_Opportunities-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
 [![github](https://img.shields.io/badge/github-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirenchaps)
 
 ## My tech stack
