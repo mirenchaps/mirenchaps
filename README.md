@@ -12,7 +12,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 
 - 🤝 Built and deployed an MCP server to k3s — 11 tools covering Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. Accessible remotely via Tailscale. Focused on AI-assisted tooling where LLMs make judgment-based decisions, not just run static scripts.
  
-- 🌱 **Currently exploring:** Terragrunt, ArgoCD, Elastic Kubernetes Service (EKS), Helm, Loki.
+- 🌱 **Currently learning:** Temporal, Terragrunt, ArgoCD, Elastic Kubernetes Service (EKS), Helm, Loki.
 
 ## Featured Projects
 
