@@ -8,11 +8,15 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
   
 - 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
 
-- 🏗️ Built a reusable CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Deployed via kubectl, observed through Prometheus + Grafana Cloud.
+- 🏗️ Built a reusable CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Deployed via ArgoCD/Helm (GitOps), observed through Prometheus + Grafana Cloud.
+
+- 📊 Deployed a self-hosted Prometheus/Grafana observability stack via ArgoCD + Helm (`kube-prometheus-stack`) — GitOps-managed, with hands-on debugging of Kubernetes Operator CRD lifecycles, probe tuning, and Helm chart internals.
+
+- ⏱️ Running Temporal on k3s via ArgoCD/Helm for durable, code-defined workflow orchestration (e.g. node health checks).
 
 - 🤝 Built and deployed an MCP server to k3s — 11 tools covering Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. Accessible remotely via Tailscale. Focused on AI-assisted tooling where LLMs make judgment-based decisions, not just run static scripts.
  
-- 🌱 **Currently learning:** Temporal, Terragrunt, ArgoCD, Elastic Kubernetes Service (EKS), Helm, Loki.
+- 🌱 **Currently exploring:** Terragrunt, Elastic Kubernetes Service (EKS), Loki.
 
 ## Featured Projects
 
@@ -20,6 +24,7 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 | --- | --- |
 | [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server deployed to k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control |
 | [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD library: GitHub Actions workflows, Jenkins shared library steps, and Terraform modules — evolved from Docker-based deployments to Kubernetes as the platform grew |
+| [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus/Grafana stack on k3s, deployed and managed via ArgoCD + Helm (GitOps) |
 | [JiraBot](https://github.com/mirenchaps/jirabot-dx) | Event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and LLM triage (Python) |
 | [Device Validation Pipeline](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, GPT, Webex |
 
@@ -44,4 +49,6 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 ![githubactions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![argocd](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![AI](https://img.shields.io/badge/Artificial_Intelligence-D97757?style=for-the-badge&logo=claude&logoColor=white)
