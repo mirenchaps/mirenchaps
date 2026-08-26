@@ -1,48 +1,44 @@
-## Hello there 👋
+## Hi, I'm Miren 👋
 
-My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience across Windows Server, cloud infrastructure, and automation.
+Cloud/Platform Engineer with 10+ years across Windows Server, cloud infrastructure, and automation. Currently at **Cisco** on the Windows & Device Automation teams, building platform tooling at the intersection of infrastructure, CI/CD, and AI.
 
-- 👔 I'm currently working with the Windows and Device Automation teams at Cisco, focused on device automation and platform engineering. Building tools that sit at the intersection of infrastructure, scripting, and AI.
+I learn by building. Everything below runs for real on a self-hosted home lab — Windows Server 2022 Hyper-V host, Ubuntu VMs, a k3s cluster with a GPU node, and Tailscale for remote access.
 
-- 🏠 **Home Lab** — Windows Server 2022 (Hyper-V host) with Ubuntu VMs running Jenkins and k3s. Observability via Prometheus, Grafana Alloy, and Grafana Cloud. Remote access via Tailscale.
-  
-- 🔧 Building JiraBot (event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, Gemini, Python) and a Device Validation pipeline - saving 45+ hrs/quarter (PowerShell, Intune, AWS, GPT, Webex, Python).
+## What I do
 
-- 🏗️ Built a reusable CI/CD platform on a self-hosted home lab: GitHub Actions (CI) → Jenkins (CD) → k3s Kubernetes. Deployed via ArgoCD/Helm (GitOps), observed through Prometheus + Grafana Cloud.
+- 🏗️ **CI/CD & Platform Engineering** — Built a reusable delivery platform end to end: GitHub Actions (CI) → Jenkins shared libraries (CD) → k3s, with ArgoCD + Helm driving GitOps deployments.
 
-- 📊 Deployed a self-hosted Prometheus/Grafana observability stack via ArgoCD + Helm (`kube-prometheus-stack`) — GitOps-managed, with hands-on debugging of Kubernetes Operator CRD lifecycles, probe tuning, and Helm chart internals.
+- ☁️ **Infrastructure as Code** — Terraform modules for AWS (EKS on Fargate, IAM, VPC, Lambda) and for the CI platform itself. Currently layering in Terragrunt.
 
-- ⏱️ Running Temporal on k3s via ArgoCD/Helm for durable, code-defined workflow orchestration (e.g. node health checks).
+- 📊 **Observability** — Self-hosted Prometheus/Grafana (`kube-prometheus-stack`) plus Grafana Alloy shipping to Grafana Cloud, with hands-on debugging of Operator CRD lifecycles, probe tuning, and Helm chart internals.
 
-- 🤝 Built and deployed an MCP server to k3s — 11 tools covering Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. Accessible remotely via Tailscale. Focused on AI-assisted tooling where LLMs make judgment-based decisions, not just run static scripts.
- 
-- 🌱 **Currently exploring:** Terragrunt, Elastic Kubernetes Service (EKS), Loki.
+- 🤖 **AI/ML Infrastructure** — KServe on a GPU-backed k3s node (RTX 4090) for self-hosted model inference, and an MCP server exposing 11 tools so LLMs make judgment-based decisions rather than just running static scripts.
+
+- ⏱️ **Workflow Orchestration** — Temporal on k3s for durable, code-defined workflows such as automated node health checks.
+
+- ⚡ **Automation with impact** — A device validation pipeline (PowerShell, Python, Intune, AWS, LLM triage, Webex) saving **45+ hours per quarter**.
 
 ## Featured Projects
 
-| Project | Description |
+| Project | What it is |
 | --- | --- |
-| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server deployed to k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control |
-| [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD library: GitHub Actions workflows, Jenkins shared library steps, and Terraform modules — evolved from Docker-based deployments to Kubernetes as the platform grew |
-| [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus/Grafana stack on k3s, deployed and managed via ArgoCD + Helm (GitOps) |
-| [JiraBot](https://github.com/mirenchaps/jirabot-dx) | Event-driven Jira → Webex notifications via AWS Lambda, DynamoDB, and LLM triage (Python) |
-| [Device Validation Pipeline](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, GPT, Webex |
+| [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD platform — GitHub Actions workflows, Jenkins shared library steps, and Terraform modules. Evolved from Docker-based deployments to Kubernetes as the platform grew. |
+| [home-lab-gitops](https://github.com/mirenchaps/home-lab-gitops) | GitOps source of truth for the k3s cluster — ArgoCD app-of-apps, Helm values, and GPU/ML workloads served via KServe. |
+| [eks-fargate-terraform](https://github.com/mirenchaps/eks-fargate-terraform) | Production-shaped EKS on Fargate in Terraform — modular network, IAM, cluster and addons, bootstrapped with ArgoCD. |
+| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server deployed to k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. |
+| [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus/Grafana stack on k3s, deployed and managed via ArgoCD + Helm (GitOps). |
+| [device-validation](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, LLM triage, Webex. |
 
-## Connect with me
-[![linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
-[![linkedin](https://img.shields.io/badge/Open_to_Opportunities-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
-[![github](https://img.shields.io/badge/github-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirenchaps)
+🌱 **Currently exploring:** Terragrunt, EKS, Loki, and self-hosted LLM inference.
 
-## My tech stack
+## Tech Stack
 
-![powershell](https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![powershell](https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![aws](https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![dynamodb](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
 ![lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
-![snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white)
-![git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -51,4 +47,11 @@ My name is Miren. I'm a Cloud/Platform Engineer with 10+ years of experience acr
 ![kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![argocd](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![AI](https://img.shields.io/badge/Artificial_Intelligence-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![AI](https://img.shields.io/badge/AI_%2F_LLMs-D97757?style=for-the-badge&logo=claude&logoColor=white)
+
+## Connect
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
+[![opportunities](https://img.shields.io/badge/Open_to_Opportunities-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miren-chaps)
+[![github](https://img.shields.io/badge/GitHub-%23100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirenchaps)
