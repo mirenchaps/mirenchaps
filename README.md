@@ -10,9 +10,9 @@ I learn by building. Everything below runs for real on a self-hosted home lab �
 
 - ☁️ **Infrastructure as Code** — Terraform modules for AWS (EKS on Fargate, IAM, VPC, Lambda) and for the CI platform itself. Currently layering in Terragrunt.
 
-- 📊 **Observability** — Self-hosted Prometheus/Grafana (`kube-prometheus-stack`) plus Grafana Alloy shipping to Grafana Cloud, with hands-on debugging of Operator CRD lifecycles, probe tuning, and Helm chart internals.
+- 📊 **Observability & SRE** — Self-hosted Prometheus/Grafana on k3s, with custom app instrumentation and dashboards shipped as code from my own Helm charts.
 
-- 🤖 **AI/ML Infrastructure** — KServe on a GPU-backed k3s node (RTX 4090) for self-hosted model inference, and an MCP server exposing 11 tools so LLMs make judgment-based decisions rather than just running static scripts.
+- 🤖 **AI/ML Infrastructure** — Qwen served on a GPU k3s node (RTX 4090) via KServe — load-tested, with TTFT and token latency tracked in Grafana. Plus an MCP server exposing 11 tools to LLMs.
 
 - ⏱️ **Workflow Orchestration** — Temporal on k3s for durable, code-defined workflows such as automated node health checks.
 
@@ -23,13 +23,13 @@ I learn by building. Everything below runs for real on a self-hosted home lab �
 | Project | What it is |
 | --- | --- |
 | [ci-platform](https://github.com/mirenchaps/ci-platform) | Reusable CI/CD platform — GitHub Actions workflows, Jenkins shared library steps, and Terraform modules. Evolved from Docker-based deployments to Kubernetes as the platform grew. |
-| [home-lab-gitops](https://github.com/mirenchaps/home-lab-gitops) | GitOps source of truth for the k3s cluster — ArgoCD app-of-apps, Helm values, and GPU/ML workloads served via KServe. |
+| [home-lab-gitops](https://github.com/mirenchaps/home-lab-gitops) | GitOps source of truth for my k3s cluster — ArgoCD app-of-apps, Helm values, and GPU model serving with KServe. |
 | [eks-fargate-terraform](https://github.com/mirenchaps/eks-fargate-terraform) | Production-shaped EKS on Fargate in Terraform — modular network, IAM, cluster and addons, bootstrapped with ArgoCD. |
-| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server deployed to k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning, and Homebridge smart home control. |
+| [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server on k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning and Homebridge control. Instrumented with per-tool Prometheus metrics and a dashboard shipped from its own Helm chart. |
 | [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus/Grafana stack on k3s, deployed and managed via ArgoCD + Helm (GitOps). |
 | [device-validation](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, LLM triage, Webex. |
 
-🌱 **Currently exploring:** Terragrunt, EKS, Loki, and self-hosted LLM inference.
+🌱 **Currently working on:** Chaos experiments on my MCP service, with a self-hosted LLM writing up the results.
 
 ## Tech Stack
 
