@@ -1,4 +1,4 @@
-## Hi, I'm Miren 👋
+# Hi, I'm Miren 👋
 
 Cloud/Platform Engineer with 10+ years across Windows Server, cloud infrastructure, and automation. Currently at **Cisco** on the Windows & Device Automation teams, building platform tooling.
 
@@ -6,17 +6,19 @@ Everything below runs for real on a self-hosted home lab — Windows Server 2022
 
 ## What I do
 
-- 🏗️ **CI/CD & Platform Engineering** — Built a reusable delivery platform end to end: GitHub Actions (CI) → Jenkins shared libraries (CD) → k3s, with ArgoCD + Helm driving GitOps deployments.
+- 🏗️ **CI/CD & Platform Engineering** — Reusable GitHub Actions workflows across 11 repos, with secret scanning, SHA-pinned actions and Sonar quality gates. Releases flow through Jenkins into ArgoCD.
 
 - ☁️ **Infrastructure as Code** — Terraform modules for AWS (EKS on Fargate, IAM, VPC, Lambda) and for the CI platform itself. Currently layering in Terragrunt.
 
-- 📊 **Observability & SRE** — Self-hosted Prometheus/Grafana on k3s, with custom app instrumentation and dashboards shipped as code from my own Helm charts.
+- 📊 **Observability & SRE** — Prometheus, Grafana, Loki and Alertmanager self-hosted on k3s, with custom instrumentation and dashboards shipped as code from my own Helm charts. The alerting has caught outages I'd otherwise have missed.
 
 - 🤖 **AI/ML Infrastructure** — Qwen served on a GPU k3s node (RTX 4090) via KServe — load-tested, with TTFT and token latency tracked in Grafana. Plus an MCP server exposing 11 tools to LLMs.
 
-- ⏱️ **Workflow Orchestration** — Temporal on k3s for durable, code-defined workflows such as automated node health checks.
+- 💥 **Chaos Engineering** — Chaos Mesh under ArgoCD, running fault experiments against a steady-state hypothesis written before a fault.
 
-- ⚡ **Automation with impact** — A device validation pipeline (PowerShell, Python, Intune, AWS, LLM triage, Webex) saving **45+ hours per quarter**.
+- ⏱️ **Workflow Orchestration** — Temporal and Postgres on k3s for durable, code-defined workflows.
+
+- ⚡ **Automation** — A device validation pipeline (PowerShell, Python, Intune, AWS, LLM triage, Webex) saving **45+ hours per quarter**.
 
 ## Featured Projects
 
@@ -26,10 +28,10 @@ Everything below runs for real on a self-hosted home lab — Windows Server 2022
 | [home-lab-gitops](https://github.com/mirenchaps/home-lab-gitops) | GitOps source of truth for my k3s cluster — ArgoCD app-of-apps, Helm values, and GPU model serving with KServe. |
 | [eks-fargate-terraform](https://github.com/mirenchaps/eks-fargate-terraform) | Production-shaped EKS on Fargate in Terraform — modular network, IAM, cluster and addons, bootstrapped with ArgoCD. |
 | [home-network-mcp](https://github.com/mirenchaps/home-network-mcp) | MCP server on k3s — 11 tools for Windows Server metrics, Raspberry Pi health, network scanning and Homebridge control. Instrumented with per-tool Prometheus metrics and a dashboard shipped from its own Helm chart. |
-| [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus/Grafana stack on k3s, deployed and managed via ArgoCD + Helm (GitOps). |
+| [observability-stack](https://github.com/mirenchaps/observability-stack) | Self-hosted Prometheus, Grafana, Loki and Alertmanager on k3s, deployed and managed via ArgoCD + Helm (GitOps). |
 | [device-validation](https://github.com/mirenchaps/device-validation) | Automated device validation saving 45+ hrs/quarter — PowerShell, Intune, AWS, LLM triage, Webex. |
 
-🌱 **Currently working on:** Chaos experiments on my MCP service, with a self-hosted LLM writing up the results.
+🌱 **Currently working on:** Getting my self-hosted LLM to write up the results of my own chaos experiments.
 
 ## Tech Stack
 
@@ -40,6 +42,8 @@ Everything below runs for real on a self-hosted home lab — Windows Server 2022
 ![lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
 ![prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![loki](https://img.shields.io/badge/Loki-F2C94C?style=for-the-badge&logo=grafana&logoColor=black)
+![sonarqube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![githubactions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
