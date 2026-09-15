@@ -1,6 +1,6 @@
-# Hi, I'm Miren 👋
+#
 
-Cloud/Platform Engineer with 10+ years across Windows Server, cloud infrastructure, and automation. Currently at **Cisco** on the Windows & Device Automation teams, building platform tooling.
+Cloud/Platform Engineer with 10+ years across Windows Server, cloud infrastructure, and automation. Currently at working for **Cisco** on the Device Automation team, building platform tooling.
 
 Everything below runs for real on a self-hosted home lab — Windows Server 2022 Hyper-V host, Ubuntu VMs, a k3s cluster with a GPU node, and Tailscale for remote access.
 
